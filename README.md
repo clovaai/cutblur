@@ -3,7 +3,7 @@
 
 This repository provides the official PyTorch implementation of the following paper:
 > **Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy**<br>
-> [Jaejun Yoo](http://jaejunyoo.blogspot.com)<sup>\*1</sup>, [Namhyuk Ahn](https://nmhkahn.github.io)<sup>\*2</sup>, [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home)<sup>2</sup><br>
+> [Jaejun Yoo](https://www.linkedin.com/in/jaejunyoo/)<sup>\*1</sup>, [Namhyuk Ahn](https://nmhkahn.github.io)<sup>\*2</sup>, [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home)<sup>2</sup><br>
 > <sup>*</sup> indicates equal contribution. Most work was done in NAVER Corp.<br>
 > <sup>1</sup> EPFL<br>
 > <sup>2</sup> Ajou University<br>
