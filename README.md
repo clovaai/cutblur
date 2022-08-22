@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 
 ### 1. Quick Start (Demo)
 You can test our models with any images. Place images in `./input` directory and run the below script.<br>
-Before executing the script, please download the pretrained model on [CutBlur_model](https://drive.google.com/open?id=1yMnIaNJX2eAhDNbTHhxAptm1dpSng2oR) and change the `--model` and `--pretrain` arguments appropriately.
+Before executing the script, please download the pretrained model on [CutBlur_model](https://drive.google.com/file/d/11lMnMsPv3uZHcKMOw7GAXsyi2suBCkUu/view?usp=sharing) and change the `--model` and `--pretrain` arguments appropriately.
 
 ```shell
 python inference.py \
@@ -37,13 +37,13 @@ We use the [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) dataset to train t
 **Important:** For the DIV2K dataset only, all the train and valid images should be placed in the `DIV2K_train_HR` and `DIV2K_train_LR_bicubic` directories (We parse train and valid images using `--div2k_range` argument).
 
 #### SR Benchmark
-For the benchmark dataset used in the paper (Set14, Urban100, and manga109), we provide original images on [here](https://drive.google.com/open?id=1b6vhLVjdQFVDMVCokfI1hmlwA_MVktu4).
+For the benchmark dataset used in the paper (Set14, Urban100, and manga109), we provide original images on [here](https://drive.google.com/file/d/11lMnMsPv3uZHcKMOw7GAXsyi2suBCkUu/view?usp=sharing).
 
 #### RealSR
 We use the [RealSR](https://github.com/csjcai/RealSR) dataset (version 1). In the paper, we utilized both Canon and Nikon images for train and test.
 
 ### 3. Evaluate Pre-trained Models
-For the folks who want to compare our result, we provide [our result](https://drive.google.com/open?id=1gGZuDfMJvD3ZUJSsQYVXREtLe_pUidms) generated on the RealSR and SR benchmark dataset.
+For the folks who want to compare our result, we provide [our result](https://drive.google.com/file/d/11lMnMsPv3uZHcKMOw7GAXsyi2suBCkUu/view?usp=sharing) generated on the RealSR and SR benchmark dataset.
 
 We present an example script to evaluate the pretrained model below:
 
